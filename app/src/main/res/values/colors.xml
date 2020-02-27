@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink">#893843</color>
+    <color name="fab_color">#4cae50</color>
+    <color name = "indigo_color">#4b0082</color>
+</resources>

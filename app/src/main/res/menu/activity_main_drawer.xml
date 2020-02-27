@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="create" />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_local_phone_black_24dp"
+            android:title="contact us" />
+        <item
+            android:id="@+id/nav_chatbot"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="chat with us" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="About us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_report_problem_black_24dp"
+                android:title="Report an issue" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="settings" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+</menu>

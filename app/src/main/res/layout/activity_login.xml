@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="@color/colorPrimaryDark">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="AgAcademy"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Technology meets tradition"
+            android:textSize="15sp"
+            android:layout_marginTop="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:text="The National Academy of Agricultural Research Management (NAARM) was established by the Indian Council of Agricultural Research (ICAR) at Hyderabad, in 1976, to address issues related to agricultural research and education management."/>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/learn"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstylepink"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn more"/>
+            <Button
+                android:id="@+id/join"
+                android:layout_margin="10dp"
+                android:background="@drawable/buttonstyle2"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="join us"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/etUserEmail"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter mail id" />
+        <EditText
+            android:id="@+id/etUserPass"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/btnUserLogin"
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylepink"
+            android:text="Login"
+            android:textColor="#fff"
+            />
+        <Button
+            android:background="@drawable/buttonstyle2"
+            android:id="@+id/btnUserRegister"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Not a member? register here"/>
+
+    </LinearLayout>
+
+</LinearLayout>
